@@ -86,7 +86,7 @@ def laykey(message):
     url_key = requests.get(f'https://link4m.co/api-shorten/v2?api=63c3c7c54c38317d4e76ae5c&url=https://card1s.store/key?key!{key}').json()['shortenedUrl']
     
     text = f'''
-- KEY CỦA BẠN {TimeStamp()} LÀ: {key} -
+- LINK LẤY KEY {TimeStamp()} LÀ: {url_key} -
 - DÙNG LỆNH /key {{key}} ĐỂ TIẾP TỤC -
  🚀[Lưu ý :mỗi key chỉ có 1 người dùng]🚀
     '''
