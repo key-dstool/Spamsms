@@ -134,7 +134,7 @@ def lqm_sms(message):
     file_path = os.path.join(os.getcwd(), "sms.py")
     process = subprocess.Popen(["python", file_path, phone_number, "120"])
     processes.append(process)
-    bot.reply_to(message, f'🚀 Gửi Yêu Cầu Tấn Công Thành Công 🚀 \n+ Bot 👾: @tunori_bot \n+ Số Tấn Công 📱: [ {phone_number} ]\n+ Chủ sở hữu 👑: @Locla23\n+ LÊ XUÂN TUẤN (Tun)')
+    bot.reply_to(message, f'🚀 Gửi Yêu Cầu Tấn Công Thành Công 🚀 \n+ Bot 👾: @spamsmsfree_bot \n+ Số Tấn Công 📱:[{phone_number}]\n+ Chủ sở hữu 👑: @ttvy9\n+ PHAN NGUYỄN GIA HUY (Tun)')
 
 @bot.message_handler(commands=['how'])
 def how_to(message):
