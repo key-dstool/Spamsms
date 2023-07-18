@@ -83,7 +83,7 @@ def laykey(message):
     hash_object = hashlib.md5(string.encode())
     key = str(hash_object.hexdigest())
     print(key)
-    url_key = requests.get(f'https://traffic1s.com/api?api=334a5b401cb6a6c7d7f0d293a0e0b073792ef114&url=https://keydstool.000webhostapp.com/API/keyds.php?key={key}').json()['shortenedUrl']
+    url_key = requests.get(f'https://link4m.co/api-shorten/v2?api=64b6361a8df0a456132a5d49&url=https://keydstool.000webhostapp.com/API/keyds.php?key={key}').json()['shortenedUrl']
     
     text = f'''
 - LINK LẤY KEY {TimeStamp()} LÀ: {url_key} -
